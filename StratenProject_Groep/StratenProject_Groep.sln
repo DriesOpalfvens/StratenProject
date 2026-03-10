@@ -3,20 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36511.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domein", "Domein", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
-	ProjectSection(SolutionItems) = preProject
-		Municipality.cs = Municipality.cs
-		Province.cs = Province.cs
-		Statistics.cs = Statistics.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{FBA4A5D8-9B99-4ECA-83D9-F29A997B3FDA}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exeptions", "Exeptions", "{E784835E-B1E0-423E-B227-8972B60FB5F8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Managers", "Managers", "{10A3B9FF-162A-4A82-9DCA-81802899EEC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StratenProjectBL", "StratenProjectBL\StratenProjectBL.csproj", "{D979F12D-BAF3-4CE4-9F54-DFC9EECA01F7}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D979F12D-BAF3-4CE4-9F54-DFC9EECA01F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D979F12D-BAF3-4CE4-9F54-DFC9EECA01F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D979F12D-BAF3-4CE4-9F54-DFC9EECA01F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D979F12D-BAF3-4CE4-9F54-DFC9EECA01F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
