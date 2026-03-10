@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace StratenProjectBL.Interface
 {
-    internal interface IStratenProvinciesBestandenLezer
+    internal interface IProvincieRepository
     {
-        List<Municapality> LeesDataMunicapality(string pad, string logpad);
+        Province GetProvince(string provinceName);
+
+
+        void importProvince(List<Province> provinceList);
+
     }
 }
