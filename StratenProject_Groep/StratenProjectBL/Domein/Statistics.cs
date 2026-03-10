@@ -1,8 +1,8 @@
 ﻿using System;
 
-public class Class1
+public class Statistics
 {
-	public Class1()
-	{
-	}
+    public Dictionary<string, int> Provinces { get; set; } = new();
+    public Dictionary<string,string> Municipalities { get; set; } = new();
+
 }
