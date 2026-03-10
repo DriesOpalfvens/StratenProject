@@ -5,6 +5,10 @@ VisualStudioVersion = 17.14.36511.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StratenProjectBL", "StratenProjectBL\StratenProjectBL.csproj", "{D979F12D-BAF3-4CE4-9F54-DFC9EECA01F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StratenProjectUI", "StratenProjectUI\StratenProjectUI.csproj", "{4C307E20-7E94-4032-A9E3-A6760A0EEEAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StratenProjectDL", "StratenProjectDL\StratenProjectDL.csproj", "{2D0F8664-DCAC-49DC-9762-D6B66488118E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D979F12D-BAF3-4CE4-9F54-DFC9EECA01F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D979F12D-BAF3-4CE4-9F54-DFC9EECA01F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D979F12D-BAF3-4CE4-9F54-DFC9EECA01F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C307E20-7E94-4032-A9E3-A6760A0EEEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C307E20-7E94-4032-A9E3-A6760A0EEEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C307E20-7E94-4032-A9E3-A6760A0EEEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C307E20-7E94-4032-A9E3-A6760A0EEEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D0F8664-DCAC-49DC-9762-D6B66488118E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D0F8664-DCAC-49DC-9762-D6B66488118E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D0F8664-DCAC-49DC-9762-D6B66488118E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D0F8664-DCAC-49DC-9762-D6B66488118E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
