@@ -23,7 +23,7 @@ public class Municapality {
 
     public IReadOnlyList<string> GetStreetNames() {
 
-        return StreetNames;
+        return StreetNames.ToList();
 
     }
 
