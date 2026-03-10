@@ -1,10 +1,11 @@
-﻿namespace StratenProjectBL
+﻿namespace StratenProjectBL;
+
+internal class Program
 {
-    internal class Program
+
+    //Niet vergeten verwijder tijdelijke dependecies!!
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        
     }
 }

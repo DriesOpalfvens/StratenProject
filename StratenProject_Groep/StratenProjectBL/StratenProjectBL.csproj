@@ -13,4 +13,8 @@
     <Folder Include="Managers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\StratenProjectUI\StratenProjectUI.csproj" />
+  </ItemGroup>
+
 </Project>

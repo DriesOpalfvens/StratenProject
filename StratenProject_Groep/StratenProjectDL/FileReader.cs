@@ -1,5 +1,5 @@
 ﻿namespace StratenProjectDL {
-    internal class StratenProjectDL_Reader {
+    public class StratenProjectDL_Reader {
         public List<Province> ReadFiles(Dictionary<string, string> filesMap, string dir) {
             Dictionary<int, Province> provinces = new Dictionary<int, Province>();
             Dictionary<int, Municapality> municapalities = new Dictionary<int, Municapality>();
